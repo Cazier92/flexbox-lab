@@ -100,9 +100,10 @@ h2 {
         flex-direction: row;
         align-items: center;
         max-width: 600px;
-        position: absolute;
         flex-wrap: wrap; 
         justify-content: space-evenly;
+        z-index: 0;
+        position: absolute;
         /* order?
         /* flex-wrap: wrap; */
     }
@@ -110,6 +111,13 @@ h2 {
     .contact-container {
         display: flex;
         width: 100%;
+        z-index: 1;
+        position: relative;
+    }
+
+    .contact {
+        z-index: 1;
+        position: relative;
     }
 
 
@@ -131,8 +139,8 @@ h2 {
         display: flex;
         left: 0;
     }
-    img {
+    /* img {
         
-    }
+    } */
     
 }
