@@ -20,18 +20,21 @@ body {
 }
 
 main {
-    background-color: white;
+    background-color: #F9DAD0;
     max-width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 30px;
 }
 
 img {
     max-width: 100px;
     /* justify-content: center; */
-    border: 3px solid lime;
+    border: 3px solid #C2F261;
     border-radius: 50%;
     /* display: flex; */
     /* align-items: center; */
@@ -44,7 +47,7 @@ h2 {
 
 .online-status {
     margin-left: 200px;
-    color: rgba(128, 128, 128, 0.708);
+    color: grey;
 }
 
 .job-info {
@@ -65,16 +68,28 @@ h2 {
     justify-content: space-between;
     /* align-items: center; */
     margin: 0;
+    border-radius: 10px;
     /* padding: 20px; */
 }
 
 .phone-sec {
-    background-color: blue;
+    background-color: #C2F261;
     /* margin: 0; */
     padding: 25px 58px 25px 60px;
+    border-radius: 0 0 0 10px;
 }
 
 
 .message-sec {
     padding: 25px 60px 25px 58px;
+    background-color: #91F291;
+    border-radius: 0 0 10px 0;
+}
+
+.solid-star {
+    color: #F6AE2D;
+}
+
+.empty-star {
+    color: grey;
 }
