@@ -100,10 +100,11 @@ h2 {
         flex-direction: row;
         align-items: center;
         max-width: 600px;
+        height: 250px;
         flex-wrap: wrap; 
-        justify-content: space-evenly;
+        justify-content: space-between;
         z-index: 0;
-        position: absolute;
+        /* position: absolute; */
         /* order?
         /* flex-wrap: wrap; */
     }
@@ -118,6 +119,7 @@ h2 {
     .contact {
         z-index: 1;
         position: relative;
+        bottom: 69px;
     }
 
 
@@ -131,16 +133,21 @@ h2 {
         flex-direction: column;
         width: 50%;
         height: 100%;
-        
+        margin: 0;
     }
     
     .online-status {
-        margin: 10px 200px 20px 0px;
+        margin: 0px 200px 20px 0px;
         display: flex;
         left: 0;
     }
-    /* img {
+    img {
         
-    } */
+        align-self: center;
+    }
     
+    .details {
+        width: 50%;
+    }
+
 }
